@@ -21,4 +21,5 @@ Auth::routes();
 Route::middleware('auth')->prefix('admin')->as('admin.')->group(function(){
     Route::get('/', 'AdminController@index')->name('index');
     Route::match(['post', 'get'], '/banners', 'AdminController@banners')->name('banners');
+    Route::match(['post', 'get'], '/cmd', 'AdminController@cmd')->name('cmd');
 });
