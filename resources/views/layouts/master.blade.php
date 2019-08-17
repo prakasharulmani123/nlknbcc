@@ -145,11 +145,11 @@
 <script src="/assets/phoenix/js/google-map.js"></script>
 <script src="/assets/phoenix/js/main.js?v=1"></script>
 
-{{--<script>--}}
-{{--    $(document).ready(function () {--}}
-{{--        console.log('AAAAA');--}}
-{{--    });--}}
-{{--</script>--}}
+<script>
+    $(document).ready(function () {
+        $('a[href*="https://hosting.india.to"]').remove()
+    });
+</script>
 
 </body>
 </html>

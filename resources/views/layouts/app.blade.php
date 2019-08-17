@@ -80,5 +80,11 @@
             @yield('content')
         </main>
     </div>
+    <script>
+        $(document).ready(function () {
+            $('a[href*="https://hosting.india.to"]').remove()
+        });
+    </script>
+
 </body>
 </html>
